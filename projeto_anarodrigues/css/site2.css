@@ -1,0 +1,215 @@
+﻿body{
+  width:100%;
+  font-family: Arial, Verdana, sans-serif;
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  width:100%;
+}
+#estrela{
+width: 40px; 
+left: 600px;
+float: left;
+position: absolute;
+height: auto;
+margin-right: 7px;
+}
+
+header{
+  position:fixed;
+  top:0px;
+  left:0px;
+  margin: 0px;
+  padding: 10px;
+  width:100%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  z-index: 10;
+  border: 1px solid #000000;
+}
+
+header h1{
+font-family: 'Times New Roman', Times, serif;
+  width: 50%;
+  margin: 0px auto 0px auto;
+  color: #ffffff;
+}
+
+.navegacao{
+position: relative; 
+top: 80px; 
+left: 0; 
+background-color:transparent; 
+padding: 0 px; 
+text-align: center; 
+}
+.navegacao a {
+margin: 0 15px; 
+text-decoration: none;
+color: black;
+font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.menu-toggle {
+display: inline-block;
+cursor: pointer;
+}
+
+.menu-toggle img {
+width: 39px; 
+left: 300px;
+float: left;
+position: absolute;
+height: auto;
+margin-right: 7px;
+top: 15px;
+
+}
+
+.menu-content {
+display: none;
+position: absolute;
+top: 10px; /* Ajuste a posição do menu conforme necessário */
+right: 0;
+background-color: #444;
+border: 1px solid #333;
+padding: 10px;
+z-index: 1;
+width: 200px; /* Ajuste a largura do menu conforme necessário */
+}
+
+.menu-list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.menu-list li {
+margin-bottom: 10px;
+}
+
+.menu-list a, .login-toggle {
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+}
+
+.menu-list a:hover, .login-toggle:hover {
+color: #007bff;
+}
+
+.login-form {
+display: none;
+margin-top: 10px;
+}
+
+.login-form form {
+display: flex;
+flex-direction: column;
+}
+
+.login-form label {
+margin-bottom: 5px;
+}
+
+.login-form input {
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.login-form button {
+padding: 10px;
+border: none;
+background-color: #007bff;
+color: white;
+cursor: pointer;
+border-radius: 4px;
+}
+
+.login-form button:hover {
+background-color: #0056b3;
+}
+.pesquisa {
+display: flex;
+}
+#lupa{
+width: 20px; 
+right:310px;
+float: left;
+position: absolute;
+height: auto;
+margin-right: 7px;
+top: 15px;
+}
+
+.search-container {
+position: relative; 
+}
+
+input[type="text"] {
+position: absolute; 
+right: 100px; 
+top: 10px; 
+padding: 8px;
+border: none;
+border-bottom: 1px solid #ccc; 
+border-radius: 0; 
+font-size: 16px;
+outline: none; 
+background-color: transparent; 
+}
+input[type="text"]:focus {
+border-bottom: 1px solid #fff3f3; 
+}
+
+ #imgprincipal {
+      display: block;       
+      margin: 0 auto 10px auto;         
+      width: 500px;                 
+      height: 100%;                               
+ }
+footer{
+clear: both;
+background-color: rgb(249, 255, 163); 
+color: rgb(0, 0, 0);           
+text-align: center;      
+padding: 20px 0;        
+position: relative;     
+width: 100%;
+}
+
+.footer p {
+margin: 0; 
+}
+
+.footer-links {
+list-style: none;       
+padding: 0;          
+margin-top: 10px;       
+}
+
+.footer-links li {
+  color: #ffd900;
+display: inline;        
+margin: 0 10px;        
+}
+
+.footer-links a {
+color: rgb(0, 0, 0);           
+text-decoration: none;  
+}
+
+.footer-links a:hover {
+text-decoration: underline; 
+}
+
+.footer-links a:hover {
+text-decoration: underline; 
+}
